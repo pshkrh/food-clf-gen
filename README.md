@@ -2,8 +2,6 @@
 
 ## Food Image Classification
 
----
-
 ### Installation
 
 The following packages are required:
@@ -59,8 +57,6 @@ The jupyter notebook ```plots.ipynb``` contains the plotting code to generate pl
 You will need to specify the path to the pickle files for the pretrained and non-pretrained model metrics in order to generate the figures.
 
 ## Pizza Image Generation
-
----
 
 ### Installation
 
