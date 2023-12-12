@@ -88,7 +88,7 @@ The model directory containing the model config, weights, and logs will be creat
 Output images will be saved in the configured output directory at the path: ```output_dir/samples/```. Model configuration can be changed in the ```TrainingConfig``` class.
 
 ```shell
-python train_classifier.py
+python train_diffusion.py
 ```
 
 ### Generating a Pizza Image
