@@ -8,11 +8,12 @@ jobs:
       run:
         working-directory: report
     steps:
-    - name: List files in the report directory
-      run: ls -R
     - name: Set up Git repository
       uses: actions/checkout@v2
-
+      
+    - name: List files in the report directory
+      run: ls -R
+      
     - name: Compile LaTeX document
       uses: xu-cheng/latex-action@v2
       with:
