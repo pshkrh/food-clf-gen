@@ -23,5 +23,5 @@ jobs:
     - name: Upload PDF
       uses: actions/upload-artifact@v3
       with:
-        name: Compiled PDF
+        name: project_report
         path: report/project_report.pdf
