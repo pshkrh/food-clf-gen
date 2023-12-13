@@ -9,7 +9,7 @@ jobs:
         working-directory: report
     steps:
     - name: Set up Git repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       
     - name: List files in the report directory
       run: ls -R
@@ -18,9 +18,10 @@ jobs:
       uses: xu-cheng/latex-action@v3
       with:
         root_file: project_report.tex
+        working_directory: report
       
     - name: Upload PDF
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: Compiled PDF
         path: project_report.pdf
