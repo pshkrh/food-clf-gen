@@ -8,6 +8,8 @@ jobs:
       run:
         working-directory: report
     steps:
+    - name: List files in the report directory
+      run: ls -R
     - name: Set up Git repository
       uses: actions/checkout@v2
 
