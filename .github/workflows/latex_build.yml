@@ -15,12 +15,12 @@ jobs:
       run: ls -R
       
     - name: Compile LaTeX document
-      uses: xu-cheng/latex-action@v2
+      uses: xu-cheng/latex-action@v3
       with:
-        root_file: report/project_report.tex
+        root_file: project_report.tex
       
     - name: Upload PDF
       uses: actions/upload-artifact@v2
       with:
         name: Compiled PDF
-        path: report/project_report.pdf
+        path: project_report.pdf
