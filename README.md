@@ -56,6 +56,8 @@ python predict_image.py
 The jupyter notebook ```plots.ipynb``` contains the plotting code to generate plots for training and testing loss and accuracy for both pretrained and non-pretrained models.
 You will need to specify the path to the pickle files for the pretrained and non-pretrained model metrics in order to generate the figures.
 
+You can download the pickle files obtained from the training experiment here: https://drive.google.com/file/d/1cp-0ytNgz7hh4NbRV1jCWYsJ46QIf9YE/view?usp=sharing
+
 ## Pizza Image Generation
 
 ### Installation
