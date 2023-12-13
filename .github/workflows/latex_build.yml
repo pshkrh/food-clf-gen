@@ -1,5 +1,11 @@
 name: Compile LaTeX document
-on: [push, pull_request]
+on:
+  push:
+    paths:
+      - 'report/project_report.tex'
+  pull_request:
+    paths:
+      - 'report/project_report.tex'
 
 jobs:
   build_pdf:
